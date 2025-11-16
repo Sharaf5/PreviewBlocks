@@ -1,0 +1,78 @@
+/* preview.css - header for each code block */
+.previewblocks-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 12px;
+  line-height: 1;
+  padding: 4px 8px;
+  border-radius: 6px 6px 0 0;
+  /* background: rgba(255,255,255,0.80); */
+  background-color: rgb(var(--vscode-textBlockQuote-background) / 0.7);
+  border: 1px solid var(--vscode-widget-border);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  /* border: 1px solid rgba(0,0,0,0.08); */
+  margin-bottom: 0;
+  user-select: none;
+}
+
+.previewblocks-header .pb-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.previewblocks-header .pb-lang {
+  font-weight: 600;
+  font-size: 11px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: rgba(0,0,0,0.03);
+  color: inherit;
+}
+
+.previewblocks-header .pb-actions {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.previewblocks-copy-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px;
+  height: 22px;
+  border-radius: 4px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: inherit;
+}
+
+.previewblocks-copy-btn:hover {
+  background: rgba(0,0,0,0.03);
+}
+
+.previewblocks-copy-btn svg {
+  width: 12px;
+  height: 12px;
+  vertical-align: middle;
+}
+
+/* ensure the header sits visually above the code block */
+.previewblocks-wrapper {
+  margin-top: 8px;
+}
+.previewblocks-wrapper .previewblocks-header {
+  margin-bottom: 0;
+}
+
+.previewblocks-header.previewblocks-sticky {
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(10px);
+  z-index: 999;
+}
