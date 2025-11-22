@@ -8,9 +8,10 @@ Additional useful UI [features](FEATURES.md) for code blocks rendering
 - language of code block is displayed in the header as typed
 - A copy icon is there to allow one shot copy of code
 
-![adaptive Light theme](images/light.png)
-
-![adaptive Light theme](images/dark.png)
+- adaptive to Light theme
+![adaptive to Light theme](images/light.png)
+- adaptive to Dark theme
+![adaptive to Dark theme](images/dark.png)
 
 > Tip: extension uses vscode theme not itself.
 

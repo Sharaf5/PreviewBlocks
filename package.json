@@ -3,21 +3,21 @@
   "displayName": "PreviewBlocks",
   "description": "preview mode code-block useful features including copy, lang name, ...etc",
   "publisher": "sharaf5",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/Sharaf5/PreviewBlocks.git" 
   },
+  "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.105.0"
   },
   "categories": [
     "Other"
   ],
-  "activationEvents": [
-    "*"
-  ],
+  "activationEvents": [],
   "main": "./out/extension.js",
+  "browser": "./out/extension.js",
   "contributes": {
     "markdown.previewScripts": [
       "./media/preview.js"

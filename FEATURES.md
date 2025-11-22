@@ -3,6 +3,7 @@
 - [x] Display the language vscode used in codeblock syntax hylighting
 - [x] Add copy icon/button for copying entire codeblock
 - [x] Add sticky functionality to the header
+- [x] Adaptive to theme
 
 ## +v2.x
 - [ ] * Sticky functionality could be determined by setting
